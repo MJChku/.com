@@ -6,8 +6,10 @@ try {
 } catch (e) {
   contentfulConfig = {
     production: {
-      spaceId: process.env.SPACE_ID,
-      accessToken: process.env.ACCESS_TOKEN,
+      spaceId: "a1avlhqjskel",
+      accessToken: "lfbZzTqVLSLZb8FCQAq67PdzQnPvH0wbzbHQddQ0IO0",
+      //spaceId: process.env.SPACE_ID,
+      //accessToken: process.env.ACCESS_TOKEN,
     },
   }
 } finally {
